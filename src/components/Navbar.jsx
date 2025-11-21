@@ -34,8 +34,8 @@ function Navbar() {
                <UserButton />
             </div>
             :<div className='flex gap-4 max-sm:text-xs'>
-            <button className='recruiter'>Recruiter Login</button>
-            <button onClick={ e=> openSignIn()} className='login'>Login</button>
+            <button className='recruiter text-white'>Recruiter Login</button>
+            <button onClick={ e=> openSignIn()} className='login text-white'>Login</button>
         </div>
         }
         

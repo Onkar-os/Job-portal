@@ -1,0 +1,12 @@
+/* src/index.css */
+
+/* Remove these if they exist:
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+*/
+
+@import "tailwindcss"; /* <-- Use this instead */
+@theme {
+  --color-custom-blue: #1da1f2;
+}
